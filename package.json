@@ -1,0 +1,28 @@
+{
+  "name": "http-api-assignment",
+  "version": "1.0.0",
+  "description": "Create responsive header packets",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Tests completed\""
+  },
+  "engines": {
+    "node": "8.10.0",
+    "npm": "5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmk8334/http-api-assignment.git"
+  },
+  "author": "Kevin Kulp",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kmk8334/http-api-assignment/issues"
+  },
+  "homepage": "https://github.com/kmk8334/http-api-assignment#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}

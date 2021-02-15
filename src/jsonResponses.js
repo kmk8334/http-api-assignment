@@ -76,7 +76,7 @@ const getUnauthorized = (request, response, params, acceptedTypes) => {
   let status = 200;
 
   // Apply query params
-  if (!params.valid || params.loggedIn !== 'yes') {
+  if (!params.loggedIn || params.loggedIn !== 'yes') {
     responseContent = {
       id: 'unauthorized',
       message: 'Missing loggedIn query parameter set to yes',

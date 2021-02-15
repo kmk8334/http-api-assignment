@@ -4,6 +4,8 @@
   "description": "Create responsive header packets",
   "main": "./src/server.js",
   "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
     "test": "echo \"Tests completed\""
   },
   "engines": {
